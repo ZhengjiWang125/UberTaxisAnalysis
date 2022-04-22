@@ -9,3 +9,7 @@ Project Group 9
 
 ## UNI
 UNIs: [sy3017, zw2785]
+
+## Extra Credit Part
+Add the widget part
+Write a test for every function
