@@ -18,7 +18,7 @@ from
 weather_hourly 
 
 where 
-date between '2012-10-22' and '2012-11-06'
+date between '2012-10-22' and '2012-11-07'
 
 group by 
 strftime ('%Y-%m-%d',date),
@@ -38,7 +38,7 @@ from
 yellow_taxi
 
 where 
-pickup_time between '2012-10-22' and '2012-11-06'
+pickup_time between '2012-10-22' and '2012-11-07'
 
 group by 
 strftime ('%Y-%m-%d',pickup_time),
@@ -55,7 +55,7 @@ from
 Uber
 
 where 
-pickup_time between '2012-10-22' and '2012-11-06'
+pickup_time between '2012-10-22' and '2012-11-07'
 
 group by 
 strftime ('%Y-%m-%d',pickup_time),
