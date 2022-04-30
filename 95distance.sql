@@ -11,7 +11,7 @@ from
 yellow_taxi
 
 where 
-pickup_time between '2013-07-01' and '2013-07-31'
+pickup_time between '2013-07-01' and '2013-08-01'
 
 union 
 
@@ -22,7 +22,7 @@ from
 Uber
 
 where 
-pickup_time between '2013-07-01' and '2013-07-31'
+pickup_time between '2013-07-01' and '2013-08-01'
 
 )t_1
 
@@ -45,7 +45,7 @@ from
 yellow_taxi
 
 where 
-pickup_time between '2013-07-01' and '2013-07-31'
+pickup_time between '2013-07-01' and '2013-08-01'
 
 union 
 
@@ -56,7 +56,7 @@ from
 Uber
 
 where 
-pickup_time between '2013-07-01' and '2013-07-31'
+pickup_time between '2013-07-01' and '2013-08-01'
 
 )
 

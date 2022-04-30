@@ -22,7 +22,7 @@ from
 yellow_taxi
 
 where 
-pickup_time between '2009-01-01' and '2009-12-31'
+pickup_time between '2009-01-01' and '2010-01-01'
 
 group by 
 strftime ('%Y-%m-%d',pickup_time)
@@ -38,7 +38,7 @@ from
 Uber
 
 where 
-pickup_time between '2009-01-01' and '2009-12-31'
+pickup_time between '2009-01-01' and '2010-01-01'
 
 group by 
 strftime ('%Y-%m-%d',pickup_time)

@@ -13,7 +13,7 @@ from
 weather_daily
 
 where 
-date between '2014-01-01' and '2014-12-31'
+date between '2014-01-01' and '2015-01-01'
 )t_1
 
 left join 
@@ -26,7 +26,7 @@ from
 yellow_taxi
 
 where 
-pickup_time between '2014-01-01' and '2014-12-31'
+pickup_time between '2014-01-01' and '2015-01-01'
 
 group by 
 strftime ('%Y-%m-%d',pickup_time)
@@ -41,7 +41,7 @@ from
 Uber
 
 where 
-pickup_time between '2014-01-01' and '2014-12-31'
+pickup_time between '2014-01-01' and '2015-01-01'
 
 group by 
 strftime ('%Y-%m-%d',pickup_time)
